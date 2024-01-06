@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4E03FDA6-285F-4982-AC99-DCA806B2CF4E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ADEA98A0-90CB-4B61-A71F-05D604A12A50"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HobbyHiveRev/RegisterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "RegisterViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "ADEA98A0-90CB-4B61-A71F-05D604A12A50 - 200bd1b570ff9e79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HobbyHiveRev.RegisterViewController.usernameTextField.getter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "HobbyHiveRev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hanzayaim/Downloads/HobbyHivee/HobbyHiveRev/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "ADEA98A0-90CB-4B61-A71F-05D604A12A50 - 688473faf9bd4a45"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HobbyHiveRev.RegisterViewController.usernameTextField.setter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "HobbyHiveRev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hanzayaim/Downloads/HobbyHivee/HobbyHiveRev/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "ADEA98A0-90CB-4B61-A71F-05D604A12A50 - d8a90525cfb37cc8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HobbyHiveRev.RegisterViewController.usernameTextField.modify : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "HobbyHiveRev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hanzayaim/Downloads/HobbyHivee/HobbyHiveRev/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "ADEA98A0-90CB-4B61-A71F-05D604A12A50 - 18675f4fecf472e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HobbyHiveRev.RegisterViewController.usernameTextField.modify : Swift.Optional&lt;__C.UITextField&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "HobbyHiveRev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hanzayaim/Downloads/HobbyHivee/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "ADEA98A0-90CB-4B61-A71F-05D604A12A50 - ce406b7bce88d54f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HobbyHiveRev.RegisterViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; HobbyHiveRev.RegisterViewController"
+                  moduleName = "HobbyHiveRev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hanzayaim/Downloads/HobbyHivee/HobbyHiveRev/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "ADEA98A0-90CB-4B61-A71F-05D604A12A50 - 96136dc0110f700a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HobbyHiveRev.RegisterViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;HobbyHiveRev.RegisterViewController&gt;"
+                  moduleName = "HobbyHiveRev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hanzayaim/Downloads/HobbyHivee/HobbyHiveRev/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

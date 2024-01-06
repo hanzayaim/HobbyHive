@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3498B112B281CEF0084A1A1 /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3498B102B281CEF0084A1A1 /* PlaceViewController.swift */; };
+		C3498B132B281D100084A1A1 /* PlaceDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3498B122B281D100084A1A1 /* PlaceDetailsViewController.swift */; };
+		C3498B152B281D280084A1A1 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3498B142B281D280084A1A1 /* Place.swift */; };
+		C3498B192B281E8D0084A1A1 /* PlaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3498B182B281E8D0084A1A1 /* PlaceCell.swift */; };
+		C385FE262B272A8B002FCA50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385FE252B272A8B002FCA50 /* AppDelegate.swift */; };
+		C385FE282B272A8B002FCA50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385FE272B272A8B002FCA50 /* SceneDelegate.swift */; };
+		C385FE2A2B272A8B002FCA50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385FE292B272A8B002FCA50 /* ViewController.swift */; };
+		C385FE2D2B272A8B002FCA50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C385FE2B2B272A8B002FCA50 /* Main.storyboard */; };
+		C385FE302B272A8B002FCA50 /* HobbyHiveRev.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C385FE2E2B272A8B002FCA50 /* HobbyHiveRev.xcdatamodeld */; };
+		C385FE322B272A8D002FCA50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C385FE312B272A8D002FCA50 /* Assets.xcassets */; };
+		C385FE352B272A8D002FCA50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C385FE332B272A8D002FCA50 /* LaunchScreen.storyboard */; };
+		C385FE3D2B274D4F002FCA50 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385FE3C2B274D4F002FCA50 /* LoginViewController.swift */; };
+		C385FE3F2B274D5C002FCA50 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385FE3E2B274D5C002FCA50 /* RegisterViewController.swift */; };
+		C385FE472B277170002FCA50 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385FE462B277170002FCA50 /* HomeViewController.swift */; };
+		C385FE492B27F533002FCA50 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385FE482B27F533002FCA50 /* NewsViewController.swift */; };
+		C385FE4B2B27F54B002FCA50 /* NewsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385FE4A2B27F54A002FCA50 /* NewsDetailsViewController.swift */; };
+		C385FE4D2B27F68D002FCA50 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385FE4C2B27F68D002FCA50 /* News.swift */; };
+		C385FE512B27F880002FCA50 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385FE502B27F880002FCA50 /* NewsCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C3498B102B281CEF0084A1A1 /* PlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
+		C3498B122B281D100084A1A1 /* PlaceDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailsViewController.swift; sourceTree = "<group>"; };
+		C3498B142B281D280084A1A1 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		C3498B182B281E8D0084A1A1 /* PlaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCell.swift; sourceTree = "<group>"; };
+		C385FE222B272A8B002FCA50 /* HobbyHiveRev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HobbyHiveRev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C385FE252B272A8B002FCA50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C385FE272B272A8B002FCA50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C385FE292B272A8B002FCA50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C385FE2C2B272A8B002FCA50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C385FE2F2B272A8B002FCA50 /* HobbyHiveRev.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HobbyHiveRev.xcdatamodel; sourceTree = "<group>"; };
+		C385FE312B272A8D002FCA50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C385FE342B272A8D002FCA50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C385FE362B272A8D002FCA50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C385FE3C2B274D4F002FCA50 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C385FE3E2B274D5C002FCA50 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		C385FE462B277170002FCA50 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C385FE482B27F533002FCA50 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		C385FE4A2B27F54A002FCA50 /* NewsDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailsViewController.swift; sourceTree = "<group>"; };
+		C385FE4C2B27F68D002FCA50 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		C385FE502B27F880002FCA50 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C385FE1F2B272A8B002FCA50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C385FE192B272A8B002FCA50 = {
+			isa = PBXGroup;
+			children = (
+				C385FE242B272A8B002FCA50 /* HobbyHiveRev */,
+				C385FE232B272A8B002FCA50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C385FE232B272A8B002FCA50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C385FE222B272A8B002FCA50 /* HobbyHiveRev.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C385FE242B272A8B002FCA50 /* HobbyHiveRev */ = {
+			isa = PBXGroup;
+			children = (
+				C385FE252B272A8B002FCA50 /* AppDelegate.swift */,
+				C385FE272B272A8B002FCA50 /* SceneDelegate.swift */,
+				C385FE292B272A8B002FCA50 /* ViewController.swift */,
+				C385FE2B2B272A8B002FCA50 /* Main.storyboard */,
+				C385FE312B272A8D002FCA50 /* Assets.xcassets */,
+				C385FE332B272A8D002FCA50 /* LaunchScreen.storyboard */,
+				C385FE362B272A8D002FCA50 /* Info.plist */,
+				C385FE2E2B272A8B002FCA50 /* HobbyHiveRev.xcdatamodeld */,
+				C385FE3C2B274D4F002FCA50 /* LoginViewController.swift */,
+				C385FE3E2B274D5C002FCA50 /* RegisterViewController.swift */,
+				C385FE462B277170002FCA50 /* HomeViewController.swift */,
+				C385FE482B27F533002FCA50 /* NewsViewController.swift */,
+				C385FE4A2B27F54A002FCA50 /* NewsDetailsViewController.swift */,
+				C385FE4C2B27F68D002FCA50 /* News.swift */,
+				C385FE502B27F880002FCA50 /* NewsCell.swift */,
+				C3498B102B281CEF0084A1A1 /* PlaceViewController.swift */,
+				C3498B122B281D100084A1A1 /* PlaceDetailsViewController.swift */,
+				C3498B142B281D280084A1A1 /* Place.swift */,
+				C3498B182B281E8D0084A1A1 /* PlaceCell.swift */,
+			);
+			path = HobbyHiveRev;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C385FE212B272A8B002FCA50 /* HobbyHiveRev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C385FE392B272A8D002FCA50 /* Build configuration list for PBXNativeTarget "HobbyHiveRev" */;
+			buildPhases = (
+				C385FE1E2B272A8B002FCA50 /* Sources */,
+				C385FE1F2B272A8B002FCA50 /* Frameworks */,
+				C385FE202B272A8B002FCA50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HobbyHiveRev;
+			productName = HobbyHiveRev;
+			productReference = C385FE222B272A8B002FCA50 /* HobbyHiveRev.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C385FE1A2B272A8B002FCA50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C385FE212B272A8B002FCA50 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = C385FE1D2B272A8B002FCA50 /* Build configuration list for PBXProject "HobbyHiveRev" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C385FE192B272A8B002FCA50;
+			productRefGroup = C385FE232B272A8B002FCA50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C385FE212B272A8B002FCA50 /* HobbyHiveRev */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C385FE202B272A8B002FCA50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C385FE352B272A8D002FCA50 /* LaunchScreen.storyboard in Resources */,
+				C385FE322B272A8D002FCA50 /* Assets.xcassets in Resources */,
+				C385FE2D2B272A8B002FCA50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C385FE1E2B272A8B002FCA50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3498B112B281CEF0084A1A1 /* PlaceViewController.swift in Sources */,
+				C385FE2A2B272A8B002FCA50 /* ViewController.swift in Sources */,
+				C385FE262B272A8B002FCA50 /* AppDelegate.swift in Sources */,
+				C385FE302B272A8B002FCA50 /* HobbyHiveRev.xcdatamodeld in Sources */,
+				C385FE3F2B274D5C002FCA50 /* RegisterViewController.swift in Sources */,
+				C3498B152B281D280084A1A1 /* Place.swift in Sources */,
+				C385FE3D2B274D4F002FCA50 /* LoginViewController.swift in Sources */,
+				C385FE472B277170002FCA50 /* HomeViewController.swift in Sources */,
+				C385FE4B2B27F54B002FCA50 /* NewsDetailsViewController.swift in Sources */,
+				C3498B132B281D100084A1A1 /* PlaceDetailsViewController.swift in Sources */,
+				C385FE282B272A8B002FCA50 /* SceneDelegate.swift in Sources */,
+				C3498B192B281E8D0084A1A1 /* PlaceCell.swift in Sources */,
+				C385FE4D2B27F68D002FCA50 /* News.swift in Sources */,
+				C385FE492B27F533002FCA50 /* NewsViewController.swift in Sources */,
+				C385FE512B27F880002FCA50 /* NewsCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C385FE2B2B272A8B002FCA50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C385FE2C2B272A8B002FCA50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C385FE332B272A8D002FCA50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C385FE342B272A8D002FCA50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C385FE372B272A8D002FCA50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C385FE382B272A8D002FCA50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C385FE3A2B272A8D002FCA50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HobbyHiveRev/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.binus.HobbyHiveRev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C385FE3B2B272A8D002FCA50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HobbyHiveRev/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.binus.HobbyHiveRev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C385FE1D2B272A8B002FCA50 /* Build configuration list for PBXProject "HobbyHiveRev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C385FE372B272A8D002FCA50 /* Debug */,
+				C385FE382B272A8D002FCA50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C385FE392B272A8D002FCA50 /* Build configuration list for PBXNativeTarget "HobbyHiveRev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C385FE3A2B272A8D002FCA50 /* Debug */,
+				C385FE3B2B272A8D002FCA50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C385FE2E2B272A8B002FCA50 /* HobbyHiveRev.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C385FE2F2B272A8B002FCA50 /* HobbyHiveRev.xcdatamodel */,
+			);
+			currentVersion = C385FE2F2B272A8B002FCA50 /* HobbyHiveRev.xcdatamodel */;
+			path = HobbyHiveRev.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C385FE1A2B272A8B002FCA50 /* Project object */;
+}
